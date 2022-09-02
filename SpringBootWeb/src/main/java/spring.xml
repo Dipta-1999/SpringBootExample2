@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="ad" class="com.web.practice.spring_web.Calculation">
+         <property name="addd" ref="adddd"></property>
+    </bean>
+    <bean id="adddd" class="com.web.practice.spring_web.Calculating"></bean>
+    
+    
+    
+    <bean id="su" class="com.web.practice.spring_web.Calculation">
+         <property name="subb" ref="subbb"></property>
+    </bean>
+    <bean id="subbb" class="com.web.practice.spring_web.Calculating"></bean>
+    
+    
+    
+    <bean id="mu" class="com.web.practice.spring_web.Calculation">
+         <property name="mull" ref="mulll"></property>
+    </bean>
+    <bean id="mulll" class="com.web.practice.spring_web.Calculating"></bean>
+    
+    
+    
+    <bean id="de" class="com.web.practice.spring_web.Calculation">
+         <property name="devv" ref="devvv"></property>
+    </bean>
+    <bean id="devvv" class="com.web.practice.spring_web.Calculating"></bean>
+</beans>
