@@ -9,7 +9,6 @@ on:
     branches:  [ master ]
   pull_request:
     branches: [ master ]
-
 permissions:
   actions: read|write|none
   checks: read|write|none
@@ -24,6 +23,7 @@ permissions:
   repository-projects: read|write|none
   security-events: read|write|none
   statuses: read|write|none
+
   
 jobs:
   build:
